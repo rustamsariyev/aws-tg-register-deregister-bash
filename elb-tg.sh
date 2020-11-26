@@ -16,7 +16,7 @@ ELB_NAME="TEST-NLB01"               # Default ELB NAME
 
 
 read -p "Please enter instance name: " TAG_NAME
-read -p "Default IDT Prod ELB Name is: ["$ELB_NAME"]. If you want to change, please enter desired ELB name: " NEW_ELB_NAME
+read -p "Default ELB Name is: ["$ELB_NAME"]. If you want to change, please enter desired ELB name: " NEW_ELB_NAME
 read -p "Default Region name is: ["$REGION_NAME"]. If you want to change, please enter desired Region Name: " NEW_REGION_NAME
 
 # Default Values
